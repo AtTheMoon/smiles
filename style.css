@@ -36,6 +36,22 @@ body{
     margin: 50px 0 0 375px;
 }
 
+.green{
+    background: green;
+    width: 187px;
+    height: 187px;
+    border-radius: 100%;
+    position: relative;
+}
+.green__eyes{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    margin: 50px 0 0 375px;
+}
+
 .red__eye{
     width: 37px;
     height: 39px;
@@ -65,7 +81,7 @@ body{
     z-index: 1;
     display: flex;
     justify-content: space-between;
-    margin: 0 0px 0 -475px;
+    margin: 50px 0px 0 -625px;
 
 }
 .blue__eyes1{
@@ -80,5 +96,20 @@ body{
     height: 35px;
     background: #34BCAC;
     border-radius: 0px 0px 125px 125px;
-    margin: 50px 0 0 -250px;
+    margin: 25px 0 0 -300px;
+}
+.green__eye{
+    width: 37px;
+    height: 39px;
+    background: green;
+    border-radius:50% ;
+}
+.green__mouth{
+    position: relative;
+    z-index: 1;
+    width: 114px;
+    height: 35px;
+    background: green;
+    border-radius: 0px 0px 125px 125px;
+    margin: 30px 0 0 -300px;
 }
