@@ -52,3 +52,33 @@ body{
     z-index: 1;
     margin: 20px 0 0 700px;
 }
+.blue{
+    width: 187px;
+    height: 187px;
+    background: #34BCAC;
+    border-radius: 93.5px;
+
+}
+.blue__eyes{
+    width: 100px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0px 0 -475px;
+
+}
+.blue__eyes1{
+    width: 37px;
+    height: 39px;
+    background: #34BCAC;
+    border-radius: 93.5px;
+}
+.blue__rot{
+    position: relative;
+    width: 114px;
+    height: 35px;
+    background: #34BCAC;
+    border-radius: 0px 0px 125px 125px;
+    margin: 50px 0 0 -250px;
+}
