@@ -16,5 +16,39 @@ body{
     height: 500px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: lightgray;
+}
+
+.red{
+    width: 187px;
+    height: 187px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.red__eyes{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 1;
+    margin: 50px 0 0 375px;
+}
+
+.red__eye{
+    width: 37px;
+    height: 39px;
+    background-color: red;
+    border-radius: 100%;
+}
+
+.red__mouth{
+    width: 115px;
+    height: 35px;
+    background-color: red;
+    border-radius: 0 0 125px 125px;
+    position: relative;
+    z-index: 1;
+    margin: 20px 0 0 700px;
 }
